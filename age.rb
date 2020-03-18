@@ -1,5 +1,5 @@
 puts "How old are you?"
-age = gets.to_i
+age = gets.chomp.to_i
 
 future = [10,20,30,40]
 #future_age = age + future
